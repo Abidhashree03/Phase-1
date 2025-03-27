@@ -1,11 +1,10 @@
-import React from "react";
-import Greeting from "./UserMessage";
-function App() {
-  return (
-    <div>
-      <Greeting />
-    </div>
-  );
+import React, { Component } from "react";
+import "./App.css"
+
+class Greeting extends Component {
+  render() {
+    return <h2>Hello from a class component!</h2>;
+  }
 }
 
-export default App;
+export default Greeting;
