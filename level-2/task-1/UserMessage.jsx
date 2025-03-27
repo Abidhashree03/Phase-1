@@ -3,7 +3,7 @@ import "./App.css"
 
 class Greeting extends Component {
   render() {
-    return <h2>Hello from a class component!</h2>;
+    return <h2>Hello from a functional component!</h2>;
   }
 }
 
