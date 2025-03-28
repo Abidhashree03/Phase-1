@@ -1,37 +1,33 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./App.css";
 
-const useInput = (initialValue = "") => {
-  const [value, setValue] = useState(initialValue);
-  const inputRef = useRef(null);
+const useCounter = (initialValue = 0) => {
+  const [count, setCount] = useState(initialValue);
 
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
+  const increment = () => setCount((prevCount) => prevCount + 1);
+  const decrement = () => setCount((prevCount) => prevCount - 1);
+  const reset = () => setCount(initialValue);
 
-  return { value, onChange: handleChange, inputRef };
+  return { count, increment, decrement, reset };
 };
 
-const InputComponent = () => {
-  const { value, onChange, inputRef } = useInput("");
+const CounterComponent = () => {
+  const { count, increment, decrement, reset } = useCounter(0);
 
   return (
-    <div className="input-container">
-      <input 
-        ref={inputRef} 
-        type="text" 
-        value={value} 
-        onChange={onChange} 
-        className="input-field" 
-        placeholder="Type something..." 
-      />
-      <p className="input-value">You typed: {value}</p>
+    <div className="counter-container">
+      <h1>Counter: {count}</h1>
+      <div className="button-group">
+        <button className="counter-button" onClick={increment}>+</button>
+        <button className="counter-button" onClick={decrement}>-</button>
+        <button className="counter-button reset" onClick={reset}>Reset</button>
+      </div>
     </div>
   );
 };
 
 const App = () => {
-  return <InputComponent />;
+  return <CounterComponent />;
 };
 
 export default App;
