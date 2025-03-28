@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #ff9af5, #faf5c4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20%;
+  }
+  
+  .input-container {
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  h2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .display-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(24, 22, 22);
+    font-weight: bold;
+  }
