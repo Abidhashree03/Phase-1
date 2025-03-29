@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fc7"
+  },
+  "name": "John Doe",
+  "age": 25,
+  "category": "A"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fc8"
+  },
+  "name": "Jane Smith",
+  "age": 30,
+  "category": "B"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fc9"
+  },
+  "name": "Alice Johnson",
+  "age": 22,
+  "category": "A"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fca"
+  },
+  "name": "Bob Brown",
+  "age": 28,
+  "category": "B"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fcb"
+  },
+  "name": "Charlie White",
+  "age": 27,
+  "category": "A"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fcc"
+  },
+  "name": "David Green",
+  "age": 35,
+  "category": "C"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fcd"
+  },
+  "name": "Emma Wilson",
+  "age": 24,
+  "category": "B"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fce"
+  },
+  "name": "Frank Thomas",
+  "age": 29,
+  "category": "C"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fcf"
+  },
+  "name": "Grace Hall",
+  "age": 26,
+  "category": "A"
+},
+{
+  "_id": {
+    "$oid": "67e0e2b658e3679030505fd0"
+  },
+  "name": "Henry King",
+  "age": 31,
+  "category": "C"
+}]

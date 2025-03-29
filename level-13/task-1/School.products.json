@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fd9"
+  },
+  "name": "Laptop",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fda"
+  },
+  "name": "Smartphone",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 100
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fdb"
+  },
+  "name": "Tablet",
+  "price": 600,
+  "category": "Electronics",
+  "stock": 70
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fdc"
+  },
+  "name": "Headphones",
+  "price": 200,
+  "category": "Accessories",
+  "stock": 200
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fdd"
+  },
+  "name": "Smartwatch",
+  "price": 300,
+  "category": "Accessories",
+  "stock": 150
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fde"
+  },
+  "name": "Camera",
+  "price": 900,
+  "category": "Electronics",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fdf"
+  },
+  "name": "Printer",
+  "price": 400,
+  "category": "Office",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe0"
+  },
+  "name": "Monitor",
+  "price": 500,
+  "category": "Electronics",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe1"
+  },
+  "name": "Keyboard",
+  "price": 100,
+  "category": "Accessories",
+  "stock": 300
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe2"
+  },
+  "name": "Mouse",
+  "price": 50,
+  "category": "Accessories",
+  "stock": 500
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe3"
+  },
+  "name": "Desk",
+  "price": 250,
+  "category": "Furniture",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe4"
+  },
+  "name": "Chair",
+  "price": 150,
+  "category": "Furniture",
+  "stock": 80
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe5"
+  },
+  "name": "Router",
+  "price": 120,
+  "category": "Networking",
+  "stock": 90
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe6"
+  },
+  "name": "External Hard Drive",
+  "price": 200,
+  "category": "Storage",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe7"
+  },
+  "name": "USB Flash Drive",
+  "price": 50,
+  "category": "Storage",
+  "stock": 300
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe8"
+  },
+  "name": "Graphics Card",
+  "price": 700,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fe9"
+  },
+  "name": "Power Bank",
+  "price": 80,
+  "category": "Accessories",
+  "stock": 150
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fea"
+  },
+  "name": "Projector",
+  "price": 850,
+  "category": "Electronics",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505feb"
+  },
+  "name": "Speakers",
+  "price": 350,
+  "category": "Accessories",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "67e0f6ab58e3679030505fec"
+  },
+  "name": "Webcam",
+  "price": 90,
+  "category": "Accessories",
+  "stock": 120
+}]
