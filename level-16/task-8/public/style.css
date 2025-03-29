@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    max-width: 90%;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+code {
+    background: #eee;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
